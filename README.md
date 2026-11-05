@@ -7,7 +7,7 @@ The pages explain these names so users can identify the same app.
 
 - `index.html`: product landing page
 - `privacy-policy.html`: privacy and data-deletion information
-- `terms-of-use.html`: terms of use
+- `terms-of-service.html`: Terms of Service
 - `styles.css`: shared responsive design
 - `logo.png`: app artwork
 - `app-ads.txt`: advertising verification
@@ -29,5 +29,8 @@ See [Google's app-ads.txt setup guide](https://support.google.com/admob/answer/9
 
 Editing this folder does not publish the site. The project's documented publication URLs are
 `https://durdenk.github.io/vibecheck-web/privacy-policy.html` and
-`https://durdenk.github.io/vibecheck-web/terms-of-use.html`; deploy these files
+`https://durdenk.github.io/vibecheck-web/terms-of-service.html`; deploy these files
 to that hosting location when publishing an update.
+
+`terms-of-use.html` is kept only as a redirect to `terms-of-service.html`, so links
+in older app versions keep working.
