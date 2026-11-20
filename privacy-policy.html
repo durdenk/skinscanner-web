@@ -46,6 +46,7 @@
       <li><strong>Optional feedback:</strong> The message you write, your app version, the app name, and an app-specific identifier generated on your device.</li>
       <li><strong>Content reports:</strong> When you report a result, the result identifier, the reason you select, your optional note, app version, the app-specific device identifier, and ordinary connection data such as IP address are sent to our backend. At that moment our backend also stores a copy of the reported result so the report can be reviewed even after the original analysis is deleted.</li>
       <li><strong>Advertising and purchase data:</strong> Device, usage, ad interaction, and transaction information processed by Google services as described below.</li>
+      <li><strong>Crash reports:</strong> Error details, device model, operating system and app version, and a random installation identifier processed by Firebase Crashlytics when the app crashes.</li>
       <li><strong>Analytics:</strong> App interactions such as onboarding steps, tool selection, analysis completion or errors, result sharing, content reports (tool and reason only, never your note), privacy choice prompts, and subscription events (which may include purchase identifiers and diagnostic details), along with device and app information processed by Google Analytics for Firebase.</li>
     </ul>
 
@@ -93,6 +94,13 @@
         app usage, feature performance, and errors. It processes app events
         and related device information as described in
         <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener noreferrer">Firebase's privacy information</a>.
+      </li>
+      <li>
+        <strong>Firebase Crashlytics:</strong> When the app crashes or hits a
+        serious error, it sends a crash report with the error details, device
+        model, operating system version, app version, and a random installation
+        identifier so we can find and fix problems. Crash reports do not include
+        your photos or results.
       </li>
     </ul>
 
